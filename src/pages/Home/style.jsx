@@ -9,7 +9,6 @@ export const ContainerHome = styled.div`
   height: auto;
   margin:0px; 
   background-color: #88cbf8;
-  
   @media (max-width: 768px) {
     flex-direction: column;
     width: 90%; 
@@ -31,10 +30,12 @@ export const H3=styled.h3`
 `
 export const FlexContainer = styled.div`
   display: flex;
+    justify-content: center;
   flex-direction: row;
   gap:30px;
   align-items: center;
   background-color: #88cbf8;
+    width: 100%;
   @media (max-width: 768px) {
     flex-direction: column; 
   }
@@ -47,11 +48,11 @@ export const ContainerCarousel =styled.div`
   position: relative;
   justify-content: center; 
   align-items: center; 
-  width: 1500px;
+  width: 100%;
   padding-top:20px;
-  display: flex;
-  position: relative;
-  z-index: 1; 
+  //display: flex;
+  //position: relative;
+  //z-index: 1; 
 `;
 
 
@@ -73,9 +74,26 @@ export const ResponsiveImage= styled.img`
 export const Container=styled.div`
 display:flex;
 flex-direction: column;
-
+    justify-content:  center;
+align-items: center;
 `;
-
+export const ContentMain = styled.div`
+    display: flex;
+    @media (max-width: 768px) {
+        flex-direction: column;
+        width: 100%; 
+    }
+`
+export const Teste = styled.div`
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+    @media (max-width: 768px) {
+        padding: 0;
+    }
+`
   
 
 

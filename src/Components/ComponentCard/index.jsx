@@ -9,7 +9,6 @@ function ComponentCard({ title, description,image,valor}) {
     <CardContainer>
       <CardImage src={image} alt={title} /> 
       <CardTitle>{title}</CardTitle>
-
       <CardDescription>{description}</CardDescription>
       <CardValue>R${valor}</CardValue>
       <LinkStyled to={"/Carrinho"} >Comprar</LinkStyled>

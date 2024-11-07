@@ -1,28 +1,22 @@
-import React from 'react';
-import SectionLinks from '../SectionLinks/style.jsx';
-import styled from 'styled-components';
-
-const StyledLink = styled.a`
-  text-decoration: none;    
-`;
+import {SectionLinks} from "./style.jsx";
 
 const SectionLinksContent = () => {
     return (
         <SectionLinks>
             <a href="#">
-            <p>Moda Feminina</p>
+                <p>Moda Feminina</p>
             </a>
             <a href="#">
-            <p>Moda Masculina</p>
+                <p>Moda Masculina</p>
             </a>
             <a href="#">
-            <p>Artigos Esportivos</p>
+                <p>Artigos Esportivos</p>
             </a>
             <a href="#">
-            <p>Tênis</p>
+                <p>Tênis</p>
             </a>
             <a href="#">
-            <p>Suplementos</p>
+                <p>Suplementos</p>
             </a>
         </SectionLinks>
     );
